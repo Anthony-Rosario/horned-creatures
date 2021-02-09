@@ -6,16 +6,16 @@ export default class DropDown extends Component {
             <div>
                 <select onChange={this.props.handlerClick} className="dropdown">
                        <option value="All">All Creatures</option>  
-                       <option value="Rhino">Rhino's</option> 
-                       <option value="Unicorn">Unicorn's</option> 
-                       <option value="Unilego">Unilego's</option> 
-                       <option value="Narwhal">Narwhal's</option> 
-                       <option value="Markhor">Markhor's</option> 
-                       <option value="Addax">Addax's</option> 
-                       <option value="Mouflon">Mouflon</option> 
-                       <option value="Chameleon">Chameleon's</option> 
-                       <option value="Lizard">Lizard's</option> 
-                       <option value="Dragon">Dragon's</option> 
+                       <option value="rhino">Rhino's</option> 
+                       <option value="unicorn">Unicorn's</option> 
+                       <option value="unilego">Unilego's</option> 
+                       <option value="narwhal">Narwhal's</option> 
+                       <option value="markhor">Markhor's</option> 
+                       <option value="addax">Addax's</option> 
+                       <option value="mouflon">Mouflon</option> 
+                       <option value="chameleon">Chameleon's</option> 
+                       <option value="lizard">Lizard's</option> 
+                       <option value="dragon">Dragon's</option> 
                     </select>
             </div>
         )
