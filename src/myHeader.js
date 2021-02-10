@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import './header.module.css';
 
 export default class HeaderRender extends Component {
     render() {
         return (
             <>
-            <section>
+            
                 <header className="headerCont">
-                   <h1 className="title">Creature Feature</h1>
+                   <h1 className="title">CREATURE FEATURE</h1>
                 </header>
-            </section>
+            
             </>
         )
     }

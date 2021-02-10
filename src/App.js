@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import images from './data.js';
-import HeaderRender from './Header/myHeader.js';
-import ImageList from './Images/imageList.js';
-import DropDown from './dropdown/DropDown.js';
+import HeaderRender from './myHeader.js';
+import ImageList from './imageList.js';
+import DropDown from './DropDown.js';
+import './App.css';
 
 export default class App extends Component {
   state ={ 

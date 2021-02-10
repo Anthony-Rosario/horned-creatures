@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import images from '../data.js';
+import React, { Component } from 'react';
 import ImageItems from './imageitem.js';
 
 
@@ -11,14 +10,10 @@ export default class ImageList extends Component {
             return false;
         });
         return (
-            <div>
+            <div className="flex-wrap">
                 {filteredImages.map(image => {
                     return <ImageItems url={image.url} title={image.title} description={image.description} keyword={image.keyword} horns={image.horns} />
-
                 })}
-                    
-                   
-            
             </div>
         )
     }
